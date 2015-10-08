@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=M:\ECE_574\Verilog_Projects\Project_2_5_2_2\fgpa_sram.ncd
+OUTFILE=M:\ECE_574\Verilog_Projects\Project_2_5_2_2\fgpa_sram.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=M:\ECE_574\Verilog_Projects\Project_2_5_2_2
+LICENSE=ISE
+USER_INFO=174652552_1777491694_210558873_140

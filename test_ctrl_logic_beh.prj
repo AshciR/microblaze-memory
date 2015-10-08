@@ -1,0 +1,4 @@
+verilog work "ctrl_logic.v"
+verilog work "test_ctrl_logic.v"
+verilog work "ipcore_dir/dcm_100/example_design/dcm_100_exdes.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

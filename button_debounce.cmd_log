@@ -1,0 +1,5 @@
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//button_debounce.v -module button_debounce -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//button_debounce.v -module button_debounce -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/button_debounce.syr" 

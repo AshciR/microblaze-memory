@@ -1,0 +1,66 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -215 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source M:/ECE_574/Verilog_Projects/Project_2_5_2_2/pa.fromNetlist.tcl
+# create_project -name Project_2_5_2_2 -dir "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/planAhead_run_2" -part xc6slx16csg324-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {M:/ECE_574/Verilog_Projects/Project_2_5_2_2} {ipcore_dir} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "fgpa_sram.ucf" [current_fileset -constrset]
+Adding file 'M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.ucf' to fileset 'constrs_1'
+# add_files [list {fgpa_sram.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-2
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design fgpa_sram.ngc ...
+WARNING:NetListWriters:298 - No output is written to fgpa_sram.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U4/clk_count<3 : 0> on block fgpa_sram
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U4/count_10Hz<22 : 0> on block fgpa_sram
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Result<22 : 0> on block fgpa_sram is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file fgpa_sram.edif ...
+ngc2edif: Total memory usage is 80300 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/Project_2_5_2_2.data/cache/fgpa_sram_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/Project_2_5_2_2.data/cache/fgpa_sram_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.ucf]
+Finished Parsing UCF File [M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  IOBUF => IOBUF (OBUFT, IBUF): 8 instances
+
+Phase 0 | Netlist Checksum: d94343f8
+link_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 639.082 ; gain = 237.789
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Nov 02 21:26:23 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

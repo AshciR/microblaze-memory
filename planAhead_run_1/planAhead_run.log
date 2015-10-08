@@ -1,0 +1,190 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -215 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source M:/ECE_574/Verilog_Projects/Project_2_5_2_2/pa.fromNetlist.tcl
+# create_project -name Project_2_5_2_2 -dir "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/planAhead_run_1" -part xc6slx16csg324-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {M:/ECE_574/Verilog_Projects/Project_2_5_2_2} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ctrl_logic.ucf" [current_fileset -constrset]
+Adding file 'M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.ucf' to fileset 'constrs_1'
+# add_files [list {ctrl_logic.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-2
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design ctrl_logic.ngc ...
+WARNING:NetListWriters:298 - No output is written to ctrl_logic.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ctrl_logic.edif ...
+ngc2edif: Total memory usage is 79212 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/Project_2_5_2_2.data/cache/ctrl_logic_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/Project_2_5_2_2.data/cache/ctrl_logic_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.ucf]
+Finished Parsing UCF File [M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 70f2c099
+link_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 622.703 ; gain = 196.934
+startgroup
+set_property package_pin H18 [get_ports adv]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports ce]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports ub]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports lb]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports cre]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports sram_clk]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports oe]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports we]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports write]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports read]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin C18 [get_ports {addr[22]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {addr[21]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {addr[20]}]
+endgroup
+startgroup
+set_property package_pin D17 [get_ports {addr[19]}]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports {addr[18]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {addr[17]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {addr[16]}]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports {addr[15]}]
+endgroup
+startgroup
+set_property package_pin E18 [get_ports {addr[14]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {addr[13]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {addr[12]}]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports {addr[11]}]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports {addr[10]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {addr[9]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {addr[8]}]
+endgroup
+startgroup
+set_property package_pin H15 [get_ports {addr[7]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {addr[6]}]
+endgroup
+startgroup
+set_property package_pin G16 [get_ports {addr[5]}]
+endgroup
+startgroup
+set_property package_pin G18 [get_ports {addr[4]}]
+endgroup
+startgroup
+set_property package_pin J16 [get_ports {addr[3]}]
+endgroup
+startgroup
+set_property package_pin J18 [get_ports {addr[2]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {addr[1]}]
+endgroup
+startgroup
+set_property package_pin K18 [get_ports {addr[0]}]
+endgroup
+startgroup
+set_property package_pin R5 [get_ports {databus[7]}]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports {databus[6]}]
+endgroup
+startgroup
+set_property package_pin R3 [get_ports {databus[5]}]
+endgroup
+startgroup
+set_property package_pin V5 [get_ports {databus[4]}]
+endgroup
+startgroup
+set_property package_pin U5 [get_ports {databus[3]}]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports {databus[2]}]
+endgroup
+startgroup
+set_property package_pin T14 [get_ports {databus[1]}]
+endgroup
+startgroup
+set_property package_pin R13 [get_ports {databus[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Nov 02 20:40:45 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

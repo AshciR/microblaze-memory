@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc fgpa_sram.ucf -p xc6slx16-csg324-2 fgpa_sram.ngc fgpa_sram.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o fgpa_sram_map.ncd fgpa_sram.ngd fgpa_sram.pcf 
+par -w -intstyle ise -ol high -mt off fgpa_sram_map.ncd fgpa_sram.ncd fgpa_sram.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fgpa_sram.twx fgpa_sram.ncd -o fgpa_sram.twr fgpa_sram.pcf -ucf fgpa_sram.ucf 
+bitgen -intstyle ise -f fgpa_sram.ut fgpa_sram.ncd 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/fgpa_sram.syr" 

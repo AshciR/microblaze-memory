@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+seven_seg_interface instance_name (
+    .clock_in(clock_in), 
+    .reset(reset), 
+    .data_in(data_in), 
+    .segs_out(segs_out), 
+    .anode_out(anode_out)
+    );
+
+

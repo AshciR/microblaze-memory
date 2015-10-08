@@ -1,0 +1,27 @@
+
+
+
+// Instantiate the module
+ctrl_logic instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .switches(switches), 
+    .write(write), 
+    .read(read), 
+    .write_out(write_out), 
+    .read_out(read_out), 
+    .read_mode(read_mode), 
+    .addr(addr), 
+    .databus(databus), 
+    .ce(ce), 
+    .we(we), 
+    .oe(oe), 
+    .sram_clk(sram_clk), 
+    .adv(adv), 
+    .cre(cre), 
+    .internal_bus(internal_bus), 
+    .lb(lb), 
+    .ub(ub)
+    );
+
+

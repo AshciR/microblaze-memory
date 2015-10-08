@@ -1,0 +1,2 @@
+verilog work "ctrl_logic.v"
+verilog work "ipcore_dir/dcm_100/example_design/dcm_100_exdes.v"

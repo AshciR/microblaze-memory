@@ -1,0 +1,48 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'dcm_100' already exists in the project. Output
+   products for this core may be overwritten.
+Resolving generics for 'dcm_100'...
+WARNING:sim - A core named 'dcm_100' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'dcm_100'...
+Delivering associated files for 'dcm_100'...
+WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'dcm_100'...
+Delivered 3 files into directory
+M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ipcore_dir/tmp/_cg/dcm_100
+Delivered 1 file into directory
+M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ipcore_dir/tmp/_cg/dcm_100
+Generating ASY schematic symbol...
+Loading device for application Rf_Device from file '6slx16.nph' in environment
+C:\Xilinx\14.5\ISE_DS\ISE\.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'dcm_100'...
+Generating ISE project...
+XCO file found: dcm_100.xco
+XMDF file found: dcm_100_xmdf.tcl
+Adding dcm_100/example_design/dcm_100_exdes.ucf -view all -origin_type created
+Adding dcm_100/example_design/dcm_100_exdes.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ipcore_dir/tmp/_cg/dcm_100/examp
+   le_design/dcm_100_exdes.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding dcm_100.asy -view all -origin_type imported
+Adding dcm_100.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ipcore_dir/tmp/_cg/dcm_100.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding dcm_100.veo -view all -origin_type imported
+WARNING:coreutil - WARNING: This core does not have a top level called
+   "/dcm_100"
+WARNING:coreutil - WARNING: Top level has been set to "/dcm_100_exdes"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'dcm_100'.

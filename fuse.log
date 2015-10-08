@@ -1,0 +1,12 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/test_ctrl_logic_isim_beh.exe -prj M:/ECE_574/Verilog_Projects/Project_2_5_2_2/test_ctrl_logic_beh.prj work.test_ctrl_logic work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.v" into library work
+Analyzing Verilog file "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/test_ctrl_logic.v" into library work
+Analyzing Verilog file "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ipcore_dir/dcm_100/example_design/dcm_100_exdes.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1654 - "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/test_ctrl_logic.v" Line 77: Instantiating <SRAM> from unknown module <sram_model>
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/seven_seg_interface.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//seven_seg_interface.v -module seven_seg_interface -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 

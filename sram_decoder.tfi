@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+sram_decoder instance_name (
+    .data(data), 
+    .addr(addr), 
+    .data_to_seg(data_to_seg)
+    );
+
+

@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sun Nov 02 20:30:13 2014
+# Process ID: 4808
+# Log file: M:/ECE_574/Verilog_Projects/Project_2_5_2_2/planAhead_run_1/planAhead.log
+# Journal file: M:/ECE_574/Verilog_Projects/Project_2_5_2_2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source M:/ECE_574/Verilog_Projects/Project_2_5_2_2/pa.fromNetlist.tcl
+startgroup
+set_property package_pin H18 [get_ports adv]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports ce]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports ub]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports lb]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports cre]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports sram_clk]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports oe]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports we]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports write]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports read]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin C18 [get_ports {addr[22]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {addr[21]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {addr[20]}]
+endgroup
+startgroup
+set_property package_pin D17 [get_ports {addr[19]}]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports {addr[18]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {addr[17]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {addr[16]}]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports {addr[15]}]
+endgroup
+startgroup
+set_property package_pin E18 [get_ports {addr[14]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {addr[13]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {addr[12]}]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports {addr[11]}]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports {addr[10]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {addr[9]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {addr[8]}]
+endgroup
+startgroup
+set_property package_pin H15 [get_ports {addr[7]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {addr[6]}]
+endgroup
+startgroup
+set_property package_pin G16 [get_ports {addr[5]}]
+endgroup
+startgroup
+set_property package_pin G18 [get_ports {addr[4]}]
+endgroup
+startgroup
+set_property package_pin J16 [get_ports {addr[3]}]
+endgroup
+startgroup
+set_property package_pin J18 [get_ports {addr[2]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {addr[1]}]
+endgroup
+startgroup
+set_property package_pin K18 [get_ports {addr[0]}]
+endgroup
+startgroup
+set_property package_pin R5 [get_ports {databus[7]}]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports {databus[6]}]
+endgroup
+startgroup
+set_property package_pin R3 [get_ports {databus[5]}]
+endgroup
+startgroup
+set_property package_pin V5 [get_ports {databus[4]}]
+endgroup
+startgroup
+set_property package_pin U5 [get_ports {databus[3]}]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports {databus[2]}]
+endgroup
+startgroup
+set_property package_pin T14 [get_ports {databus[1]}]
+endgroup
+startgroup
+set_property package_pin R13 [get_ports {databus[0]}]
+endgroup
+save_constraints

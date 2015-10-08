@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/sram_decoder.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//sram_decoder.v -module sram_decoder -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 

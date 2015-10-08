@@ -1,0 +1,55 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clock_lock" LOC = U16;
+
+
+
+NET "adv" LOC = H18;
+NET "ce" LOC = L15;
+NET "ub" LOC = K15;
+NET "lb" LOC = K16;
+NET "cre" LOC = M18;
+NET "sram_clk" LOC = R10;
+NET "oe" LOC = L18;
+NET "we" LOC = M16;
+
+NET "write" LOC = D9;
+NET "read" LOC = C4;
+
+NET "rst" LOC = B8;
+NET "clk" LOC = V10;
+NET "clk" PERIOD = 10ns HIGH 50%;
+
+NET "addr[22]" LOC = C18;
+NET "addr[21]" LOC = F14;
+NET "addr[20]" LOC = G14;
+NET "addr[19]" LOC = D17;
+NET "addr[18]" LOC = D18;
+NET "addr[17]" LOC = H12;
+NET "addr[16]" LOC = G13;
+NET "addr[15]" LOC = E16;
+NET "addr[14]" LOC = E18;
+NET "addr[13]" LOC = K12;
+NET "addr[12]" LOC = K13;
+NET "addr[11]" LOC = F17;
+NET "addr[10]" LOC = F18;
+NET "addr[9]" LOC = H13;
+NET "addr[8]" LOC = H14;
+NET "addr[7]" LOC = H15;
+NET "addr[6]" LOC = H16;
+NET "addr[5]" LOC = G16;
+NET "addr[4]" LOC = G18;
+NET "addr[3]" LOC = J16;
+NET "addr[2]" LOC = J18;
+NET "addr[1]" LOC = K17;
+NET "addr[0]" LOC = K18;
+
+NET "databus[7]" LOC = R5;
+NET "databus[6]" LOC = T3;
+NET "databus[5]" LOC = R3;
+NET "databus[4]" LOC = V5;
+NET "databus[3]" LOC = U5;
+NET "databus[2]" LOC = V14;
+NET "databus[1]" LOC = T14;
+NET "databus[0]" LOC = R13;

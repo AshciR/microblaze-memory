@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_1/ctrl_logic.syr" 
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//ctrl_logic.v -module ctrl_logic -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.syr" 
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//ctrl_logic.v -module ctrl_logic -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//ctrl_logic.v -module ctrl_logic -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.syr" 
+xst -intstyle ise -ifn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.xst" -ofn "M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.syr" 
+vhdtdtfi -lang verilog -prj Project_2_5_2_2 -o M:/ECE_574/Verilog_Projects/Project_2_5_2_2/ctrl_logic.tfi -lib work M:/ECE_574/Verilog_Projects/Project_2_5_2_2//ctrl_logic.v -module ctrl_logic -template C:/Xilinx/14.5/ISE_DS/ISE//data/tfi.tft -deleteonerror 

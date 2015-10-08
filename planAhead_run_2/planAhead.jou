@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sun Nov 02 21:25:55 2014
+# Process ID: 6780
+# Log file: M:/ECE_574/Verilog_Projects/Project_2_5_2_2/planAhead_run_2/planAhead.log
+# Journal file: M:/ECE_574/Verilog_Projects/Project_2_5_2_2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source M:/ECE_574/Verilog_Projects/Project_2_5_2_2/pa.fromNetlist.tcl
